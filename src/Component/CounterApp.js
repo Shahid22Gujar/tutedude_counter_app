@@ -23,9 +23,9 @@ class CounterApp extends Component{
       <div>
          <h1>Counter App </h1>
          <h3>Counter: {this.state.count}</h3>
-         <button onClick={this.handleIncrement}>Increment</button><br>
+         <button onClick={this.handleIncrement}>Increment(+)</button><br>
          </br>
-         <button onClick={this.handleDecrement}>Decrement</button>
+         <button onClick={this.handleDecrement}>Decrement(-)</button>
       </div>
       
     )

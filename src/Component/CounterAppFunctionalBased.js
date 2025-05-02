@@ -13,9 +13,9 @@ function CounterAppFunctionalBased(){
         <div>
          <h1>Counter App (Functional Based)</h1>
         <h3>Counter: {count}</h3>
-        <button onClick={handleIncrement}>Increment</button><br>
+        <button onClick={handleIncrement}>Increment(+)</button><br>
         </br>
-        <button onClick={handleDecrement}>Decrement</button>
+        <button onClick={handleDecrement}>Decrement(-)</button>
      </div>
        
 
